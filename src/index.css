@@ -21,7 +21,7 @@ body{
 .container1:hover{
   box-shadow: 0 0 30px #959393;
   border: 1px solid rgb(7, 7, 131);
-  transform: scale(1.01);
+  transform: scale(1.01); 
 }
 .container2:hover{
   box-shadow: 0 0 30px #959393;
