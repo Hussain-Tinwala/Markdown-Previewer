@@ -7,7 +7,7 @@ import Engine from "./components/Engine"
 function App(){
   return(
     <>
-      <h1 className='bg-gradient-to-r from-blue-950 to-blue-100 bg-clip-text text-5xl font-extrabold text-transparent '>MarkDown Previewer</h1>
+      <h1 className='bg-gradient-to-r from-blue-950 to-blue-100 bg-clip-text text-5xl font-extrabold text-transparent mt-5 '>MarkDown Previewer</h1>
       <Engine />
     </>
   )

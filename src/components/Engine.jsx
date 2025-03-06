@@ -38,7 +38,7 @@ code block
 
     return (
         <>
-            <div className="container font-mono flex border-2 h-1/3 max-h-screen gap-10 p-[20px] m-10 mx-auto mb-0  bg-transparent w-300 rounded-lg shadow-lg shadow-blue-500/50 ring-1"
+            <div className="container font-mono flex border-2 h-1/3 max-h-screen gap-10 p-[20px] m-10 mx-auto mb-0 bg-transparent w-300 rounded-lg shadow-lg shadow-blue-500/50 ring-1"
                             
             // style={{
             //     display: 'flex',
@@ -89,7 +89,7 @@ h-8 ">Input</h2>
 h-8">Preview</h2>
                     <div
                         id="preview"
-                        className="w-full h-96 m-2 p-4 prose"
+                        className="w-full h-[400px] m-2 p-4 prose overflow-y-auto"
                         dangerouslySetInnerHTML={renderMarkdown()}
                     />
 
